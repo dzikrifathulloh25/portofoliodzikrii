@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dzikri — Mahasiswa Sistem Informasi | Web Developer & UI/UX Designer</title>
+  <meta name="description"
+    content="Portofolio Dzikri — Mahasiswa Sistem Informasi, calon Web Developer & UI/UX Designer dengan pengalaman kepemimpinan yang kuat. Jelajahi proyek, keahlian, dan lainnya." />
+  <meta name="keywords" content="portofolio, web developer, UI/UX designer, sistem informasi, mahasiswa, Indonesia" />
+  <meta name="author" content="Dzikri" />
+  <meta property="og:title" content="Dzikri — Portofolio Web Developer & UI/UX Designer" />
+  <meta property="og:description"
+    content="Mahasiswa Sistem Informasi dengan semangat di bidang pengembangan web, desain, dan kepemimpinan teknologi." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0a0a1a" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" id="nav-logo">
+        <span class="logo-bracket">&lt;</span>Dzikri<span class="logo-bracket"> /&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link" data-section="about">Tentang</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Keahlian</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Pengalaman</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Proyek</a></li>
+        <li><a href="#education" class="nav-link" data-section="education">Pendidikan</a></li>
+        <li><a href="#certificates" class="nav-link" data-section="certificates">Sertifikat</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Kontak</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-effects">
+      <div class="hero-gradient-orb hero-orb-1"></div>
+      <div class="hero-gradient-orb hero-orb-2"></div>
+      <div class="hero-gradient-orb hero-orb-3"></div>
+      <div class="hero-grid-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        Terbuka untuk Peluang
+      </div>
+      <h1 class="hero-title reveal-up" style="--delay: 0.1s">
+        Membangun<br />
+        <span class="hero-title-gradient">Pengalaman Digital</span><br />
+        dengan Kode & Desain
+      </h1>
+      <p class="hero-subtitle reveal-up" style="--delay: 0.2s">
+        Mahasiswa Sistem Informasi yang berfokus pada <strong>Pengembangan Web</strong> &amp; <strong>Desain
+          UI/UX</strong>,
+        dengan <strong>pengalaman kepemimpinan</strong> yang terbukti dalam mengelola tim dan acara.
+        Mengubah ide menjadi solusi digital yang elegan dan fungsional.
+      </p>
+      <div class="hero-cta reveal-up" style="--delay: 0.3s">
+        <a href="#projects" class="btn btn-primary" id="hero-cta-projects">
+          Lihat Karya Saya
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a href="#contact" class="btn btn-secondary" id="hero-cta-contact">
+          Hubungi Saya
+        </a>
+      </div>
+      <div class="hero-stats reveal-up" style="--delay: 0.4s">
+        <div class="hero-stat">
+          <span class="hero-stat-number" data-count="2">0</span><span class="hero-stat-plus">+</span>
+          <span class="hero-stat-label">Tahun Memimpin Tim</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="hero-stat-number" data-count="5">0</span><span class="hero-stat-plus">+</span>
+          <span class="hero-stat-label">Keahlian Teknis</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="hero-stat-number" data-count="4">0</span><span class="hero-stat-plus">+</span>
+          <span class="hero-stat-label">Peran Kepemimpinan</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator reveal-up" style="--delay: 0.6s">
+      <div class="scroll-line"></div>
+      <span>Gulir untuk menjelajah</span>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Perkenalan</span>
+        <h2 class="section-title">Tentang <span class="text-gradient">Saya</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal-left">
+          <div class="about-image-card">
+            <div class="about-image-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" />
+              </svg>
+              <span>Foto orang ganteng di Sini</span>
+            </div>
+            <div class="about-image-decoration"></div>
+          </div>
+          <div class="about-floating-card about-float-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+            </svg>
+            <span>Pemimpin Mahasiswa</span>
+          </div>
+          <div class="about-floating-card about-float-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+            <span>Penggemar Koding</span>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <h3 class="about-headline">
+            Pembelajar yang antusias menjembatani <span class="text-gradient">kreativitas</span> dan <span
+              class="text-gradient">teknologi</span>
+          </h3>
+          <p class="about-text">
+            Halo! Saya adalah mahasiswa S1 Sistem Informasi (Semester 6) di sebuah Universitas Ibn Khaldun Bogor.
+            Perjalanan saya di dunia teknologi dimulai dari SMK Komputer Indonesia dengan jurusan Multimedia, di mana
+            saya menemukan kecintaan saya pada desain dan kreasi digital.
+            Fondasi tersebut secara alami membawa saya untuk mengejar Sistem Informasi, di mana saya kini menggabungkan
+            mata kreatif dengan keahlian teknis.
+          </p>
+          <p class="about-text">
+            Yang membedakan saya bukan hanya keahlian teknis — tetapi kemampuan saya yang terbukti untuk
+            <strong>memimpin tim</strong>,
+            <strong>mengelola proyek yang kompleks</strong>, dan <strong>berkomunikasi secara efektif</strong>. Setelah
+            menjabat sebagai
+            Ketua Divisi Seni &amp; Olahraga di Himpunan Mahasiswa dan sebagai Ketua Pelaksana beberapa acara mahasiswa,
+            saya membawa perpaduan unik antara kepemimpinan dan ketajaman teknis ke setiap proyek.
+          </p>
+          <p class="about-text">
+            Saya sangat antusias dengan Pengembangan Web dan Desain UI/UX, dan saya aktif membangun portofolio teknis
+            saya
+            sambil mencari kesempatan magang dan freelance. Saya percaya developer terbaik bukan hanya sekedar pembuat
+            kode —
+            mereka adalah komunikator, pemecah masalah, dan pemimpin.
+          </p>
+          <div class="about-highlights">
+            <div class="about-highlight-item">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                  <path d="M6 12v5c3 3 10 3 12 0v-5" />
+                </svg>
+              </div>
+              <div>
+                <strong>Sistem Informasi</strong>
+                <span>Semester 6 — Mahasiswa Aktif</span>
+              </div>
+            </div>
+            <div class="about-highlight-item">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <strong>Bogor, Indonesia</strong>
+                <span>Terbuka untuk Kerja Remote</span>
+              </div>
+            </div>
+            <div class="about-highlight-item">
+              <div class="highlight-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <strong>Siap Berkontribusi</strong>
+                <span>Magang &amp; Freelance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS SECTION ==================== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Keahlian</span>
+        <h2 class="section-title">Kemampuan & <span class="text-gradient">Alat</span></h2>
+        <div class="section-line"></div>
+        <p class="section-description">Kumpulan teknologi, alat desain, dan kemampuan profesional yang terus berkembang
+          melalui pendidikan dan pengalaman kepemimpinan.</p>
+      </div>
+      <div class="skills-grid">
+        <!-- Technical Skills -->
+        <div class="skill-category reveal-up" style="--delay: 0s">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper skill-icon-tech">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+            </div>
+            <h3>Keahlian Teknis</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-item-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"
+                  width="28" height="28" />
+              </div>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"
+                  width="28" height="28" />
+              </div>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript" width="28" height="28" />
+              </div>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="28"
+                  height="28" />
+              </div>
+              <span>PHP</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"
+                  width="28" height="28" />
+              </div>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+        <!-- Design Skills -->
+        <div class="skill-category reveal-up" style="--delay: 0.1s">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper skill-icon-design">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path d="M12 19l7-7 3 3-7 7-3-3z" />
+                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+                <path d="M2 2l7.586 7.586" />
+                <circle cx="11" cy="11" r="2" />
+              </svg>
+            </div>
+            <h3>Keahlian Desain</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-item-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"
+                  width="28" height="28" />
+              </div>
+              <span>Figma</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
+                  alt="Photoshop" width="28" height="28" />
+              </div>
+              <span>Photoshop</span>
+            </div>
+          </div>
+        </div>
+        <!-- Tools -->
+        <div class="skill-category reveal-up" style="--delay: 0.2s">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper skill-icon-tools">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+              </svg>
+            </div>
+            <h3>Alat Pengembangan</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-item-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="28"
+                  height="28" />
+              </div>
+              <span>Git</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"
+                  width="28" height="28" />
+              </div>
+              <span>GitHub</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"
+                  width="28" height="28" />
+              </div>
+              <span>VS Code</span>
+            </div>
+          </div>
+        </div>
+        <!-- Professional Skills -->
+        <div class="skill-category reveal-up" style="--delay: 0.3s">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper skill-icon-soft">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <h3>Kemampuan Profesional</h3>
+          </div>
+          <div class="skill-items skill-items-soft">
+            <div class="skill-tag">Kepemimpinan</div>
+            <div class="skill-tag">Kerja Tim</div>
+            <div class="skill-tag">Komunikasi</div>
+            <div class="skill-tag">Koordinasi Proyek</div>
+            <div class="skill-tag">Pemecahan Masalah</div>
+            <div class="skill-tag">Manajemen Acara</div>
+            <div class="skill-tag">Manajemen Waktu</div>
+            <div class="skill-tag">Adaptabilitas</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE SECTION ==================== -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Perjalanan Kepemimpinan</span>
+        <h2 class="section-title">Pengalaman <span class="text-gradient">Organisasi</span></h2>
+        <div class="section-line"></div>
+        <p class="section-description">Kepemimpinan yang terbukti melalui pengalaman langsung mengelola tim,
+          mengkoordinasi acara, dan mendorong kesuksesan organisasi.</p>
+      </div>
+      <div class="experience-timeline">
+        <!-- Experience Card 1 -->
+        <div class="exp-card reveal-up" style="--delay: 0s">
+          <div class="exp-card-glow"></div>
+          <div class="exp-card-header">
+            <div class="exp-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+              </svg>
+            </div>
+            <div class="exp-badge">2 Periode</div>
+          </div>
+          <h3 class="exp-title">Ketua Divisi Seni & Olahraga</h3>
+          <p class="exp-org">Himpunan Mahasiswa</p>
+          <p class="exp-description">
+            Memimpin Divisi Seni & Olahraga selama dua periode berturut-turut, menunjukkan kepercayaan
+            dan kemampuan yang konsisten. Mengelola anggota divisi, merencanakan dan melaksanakan program
+            budaya dan olahraga, serta mengkoordinasikan kegiatan lintas divisi dalam lingkungan mahasiswa.
+          </p>
+          <div class="exp-achievements">
+            <div class="exp-achievement">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span>Memimpin dan membimbing anggota tim divisi</span>
+            </div>
+            <div class="exp-achievement">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span>Merencanakan & mengelola program dan kegiatan divisi</span>
+            </div>
+            <div class="exp-achievement">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span>Berkoordinasi dengan divisi lain & pihak eksternal</span>
+            </div>
+            <div class="exp-achievement">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span>Mengembangkan kemampuan kepemimpinan & komunikasi</span>
+            </div>
+          </div>
+          <div class="exp-skills-gained">
+            <span class="exp-skill-tag">Kepemimpinan</span>
+            <span class="exp-skill-tag">Manajemen Tim</span>
+            <span class="exp-skill-tag">Komunikasi</span>
+            <span class="exp-skill-tag">Perencanaan Program</span>
+          </div>
+        </div>
+
+        <!-- Experience Card 2 -->
+        <div class="exp-card reveal-up" style="--delay: 0.15s">
+          <div class="exp-card-glow"></div>
+          <div class="exp-card-header">
+            <div class="exp-icon-wrapper exp-icon-ceo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+              </svg>
+            </div>
+            <div class="exp-badge exp-badge-highlight">2 Periode</div>
+          </div>
+          <h3 class="exp-title">Ketua Pelaksana</h3>
+          <p class="exp-org">Acara Orientasi Mahasiswa — Malam Keakraban</p>
+          <p class="exp-description">
+            Menjabat sebagai Pemimpin Proyek keseluruhan untuk Acara Orientasi Mahasiswa (Malam Keakraban)
+            selama dua periode. Bertanggung jawab atas seluruh siklus perencanaan, pelaksanaan, dan
+            evaluasi acara. Memimpin seluruh panitia yang mencakup berbagai divisi dan memastikan
+            keberhasilan pelaksanaan acara.
+          </p>
+          <div class="exp-achievements">
+            <div class="exp-achievement">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span>Memimpin seluruh panitia penyelenggara acara</span>
+            </div>
+            <div class="exp-achievement">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span>Mengelola perencanaan & pelaksanaan acara dari awal hingga akhir</span>
+            </div>
+            <div class="exp-achievement">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span>Mengkoordinasikan beberapa divisi secara bersamaan</span>
+            </div>
+            <div class="exp-achievement">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span>Bertanggung jawab penuh atas keberhasilan acara & anggaran</span>
+            </div>
+          </div>
+          <div class="exp-skills-gained">
+            <span class="exp-skill-tag">Kepemimpinan Proyek</span>
+            <span class="exp-skill-tag">Manajemen Acara</span>
+            <span class="exp-skill-tag">Perencanaan Strategis</span>
+            <span class="exp-skill-tag">Manajemen Pemangku Kepentingan</span>
+          </div>
+        </div>
+      </div>
+      <div class="exp-why-it-matters reveal-up">
+        <div class="exp-why-card">
+          <h4>
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+              <line x1="12" y1="17" x2="12.01" y2="17" />
+            </svg>
+            Mengapa Kepemimpinan Penting di Dunia Teknologi
+          </h4>
+          <p>
+            Di industri IT, keahlian teknis saja tidak cukup. Kemampuan memimpin tim, mengelola proyek,
+            mengkoordinasikan pemangku kepentingan, dan berkomunikasi secara efektif adalah soft skill yang mengubah
+            developer yang baik menjadi developer yang hebat. Pengalaman kepemimpinan ini langsung diterapkan dalam
+            kepemimpinan tim Agile, perencanaan sprint, kolaborasi lintas fungsi, dan manajemen pemangku kepentingan
+            — kemampuan yang sangat dibutuhkan di perusahaan teknologi saat ini.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS SECTION ==================== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Portofolio</span>
+        <h2 class="section-title">Proyek <span class="text-gradient">Unggulan</span></h2>
+        <div class="section-line"></div>
+        <p class="section-description">Kumpulan proyek yang terus bertambah untuk menampilkan perjalanan saya di
+          pengembangan web dan desain. Segera hadir lebih banyak!</p>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal-up" style="--delay: 0s" id="project-portfolio">
+          <div class="project-card-inner">
+            <div class="project-image">
+              <div class="project-image-placeholder">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.5">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                  <line x1="8" y1="21" x2="16" y2="21" />
+                  <line x1="12" y1="17" x2="12" y2="21" />
+                </svg>
+              </div>
+              <div class="project-status project-status-active">
+                <span class="status-dot status-dot-active"></span>
+                Dalam Pengembangan
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Website Portofolio Pribadi</h3>
+              <p class="project-desc">Website portofolio modern dan responsif yang dibangun untuk menampilkan keahlian,
+                proyek, dan perjalanan profesional. Dilengkapi mode gelap, animasi, dan desain mobile-first.</p>
+              <div class="project-tech">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="View Live">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Pratinjau Langsung
+                </a>
+                <a href="#" class="project-link" aria-label="View Source Code">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                  </svg>
+                  Kode Sumber
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal-up" style="--delay: 0.1s" id="project-inventory">
+          <div class="project-card-inner">
+            <div class="project-image">
+              <div class="project-image-placeholder project-placeholder-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.5">
+                  <path
+                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                  <line x1="12" y1="22.08" x2="12" y2="12" />
+                </svg>
+              </div>
+              <div class="project-status project-status-soon">
+                <span class="status-dot status-dot-soon"></span>
+                Segera Hadir
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Sistem Manajemen Inventaris</h3>
+              <p class="project-desc">Aplikasi web full-stack untuk mengelola inventaris produk dengan operasi CRUD,
+                fungsi pencarian, dan dashboard pelaporan.</p>
+              <div class="project-tech">
+                <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>CSS3</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link project-link-disabled">Segera Hadir</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal-up" style="--delay: 0.2s" id="project-library">
+          <div class="project-card-inner">
+            <div class="project-image">
+              <div class="project-image-placeholder project-placeholder-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.5">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                </svg>
+              </div>
+              <div class="project-status project-status-soon">
+                <span class="status-dot status-dot-soon"></span>
+                Segera Hadir
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Sistem Informasi Perpustakaan</h3>
+              <p class="project-desc">Sistem manajemen perpustakaan lengkap dengan katalog buku, pengelolaan anggota,
+                pelacakan peminjaman/pengembalian, dan notifikasi keterlambatan.</p>
+              <div class="project-tech">
+                <span>PHP</span><span>MySQL</span><span>HTML5</span><span>CSS3</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link project-link-disabled">Segera Hadir</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal-up" style="--delay: 0.3s" id="project-uiux">
+          <div class="project-card-inner">
+            <div class="project-image">
+              <div class="project-image-placeholder project-placeholder-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.5">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                  <line x1="12" y1="18" x2="12.01" y2="18" />
+                </svg>
+              </div>
+              <div class="project-status project-status-soon">
+                <span class="status-dot status-dot-soon"></span>
+                Segera Hadir
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Desain Aplikasi Mobile UI/UX</h3>
+              <p class="project-desc">Studi kasus desain UI/UX aplikasi mobile lengkap dengan riset pengguna, wireframe,
+                prototipe, dan sistem desain visual yang rapi.</p>
+              <div class="project-tech">
+                <span>Figma</span><span>Desain UI</span><span>Prototipe</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link project-link-disabled">Segera Hadir</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card reveal-up" style="--delay: 0.4s" id="project-company">
+          <div class="project-card-inner">
+            <div class="project-image">
+              <div class="project-image-placeholder project-placeholder-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1.5">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </div>
+              <div class="project-status project-status-soon">
+                <span class="status-dot status-dot-soon"></span>
+                Segera Hadir
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Website Profil Perusahaan</h3>
+              <p class="project-desc">Website profil perusahaan profesional dengan desain modern, tata letak responsif,
+                formulir kontak, dan integrasi manajemen konten.</p>
+              <div class="project-tech">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>PHP</span>
+              </div>
+              <div class="project-links">
+                <span class="project-link project-link-disabled">Segera Hadir</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EDUCATION SECTION ==================== -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Perjalanan Akademik</span>
+        <h2 class="section-title"><span class="text-gradient">Pendidikan</span> Saya</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="education-cards">
+        <div class="edu-card reveal-up" style="--delay: 0s">
+          <div class="edu-card-accent"></div>
+          <div class="edu-header">
+            <div class="edu-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.5">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 10 3 12 0v-5" />
+              </svg>
+            </div>
+            <div class="edu-badge">Saat Ini</div>
+          </div>
+          <h3 class="edu-degree">Sarjana Sistem Informasi</h3>
+          <p class="edu-school">Universitas di Bogor, Indonesia</p>
+          <p class="edu-period">2023 — Sekarang (Semester 6)</p>
+          <p class="edu-description">
+            Mempelajari persinggungan antara teknologi dan bisnis — dari pengembangan perangkat lunak dan manajemen
+            basis data
+            hingga analisis sistem dan manajemen proyek TI. Aktif terlibat dalam organisasi mahasiswa dan peran
+            kepemimpinan.
+          </p>
+          <div class="edu-skills">
+            <span>Analisis Sistem</span>
+            <span>Desain Basis Data</span>
+            <span>Pengembangan Web</span>
+            <span>Manajemen TI</span>
+            <span>Rekayasa Perangkat Lunak</span>
+          </div>
+        </div>
+
+        <div class="edu-card reveal-up" style="--delay: 0.15s">
+          <div class="edu-card-accent edu-card-accent-alt"></div>
+          <div class="edu-header">
+            <div class="edu-icon edu-icon-alt">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.5">
+                <path d="M12 19l7-7 3 3-7 7-3-3z" />
+                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+                <path d="M2 2l7.586 7.586" />
+                <circle cx="11" cy="11" r="2" />
+              </svg>
+            </div>
+            <div class="edu-badge edu-badge-completed">Lulus</div>
+          </div>
+          <h3 class="edu-degree">Sekolah Menengah Kejuruan Multimedia</h3>
+          <p class="edu-school">SMK Multimedia</p>
+          <p class="edu-period">Lulus</p>
+          <p class="edu-description">
+            Membangun fondasi yang kuat dalam media digital, desain grafis, dasar-dasar pengembangan web, dan produksi
+            kreatif.
+            Pendidikan ini memicu semangat saya untuk menggabungkan desain visual dengan implementasi teknis.
+          </p>
+          <div class="edu-skills">
+            <span>Desain Grafis</span>
+            <span>Dasar Web</span>
+            <span>Media Digital</span>
+            <span>Fotografi</span>
+            <span>Pengeditan Video</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CERTIFICATES SECTION ==================== -->
+  <section class="section certificates" id="certificates">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Pembelajaran Berkelanjutan</span>
+        <h2 class="section-title">Sertifikat & <span class="text-gradient">Kredensial</span></h2>
+        <div class="section-line"></div>
+        <p class="section-description">Saat ini sedang mengejar sertifikasi untuk memvalidasi keahlian dan memperluas
+          kompetensi. Bagian ini akan diperbarui saat kredensial baru diperoleh.</p>
+      </div>
+      <div class="cert-grid reveal-up">
+        <div class="cert-placeholder-card">
+          <div class="cert-placeholder-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+            </svg>
+          </div>
+          <h4>Sertifikasi Dalam Proses</h4>
+          <p>Saya aktif mengejar sertifikasi yang relevan di bidang pengembangan web, desain UI/UX, dan dasar-dasar TI.
+            Kredensial baru akan muncul di sini setelah diperoleh.</p>
+          <div class="cert-coming-list">
+            <div class="cert-coming-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              <span>Dasar-Dasar Pengembangan Web</span>
+            </div>
+            <div class="cert-coming-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              <span>Sertifikasi Desain UI/UX</span>
+            </div>
+            <div class="cert-coming-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              <span>Manajemen Basis Data</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Mari Terhubung</span>
+        <h2 class="section-title">Hubungi <span class="text-gradient">Saya</span></h2>
+        <div class="section-line"></div>
+        <p class="section-description">Tertarik untuk bekerja sama, punya ide proyek, atau hanya ingin menyapa? Saya
+          senang mendengar dari Anda.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <h3>Mari membangun sesuatu yang <span class="text-gradient">luar biasa</span> bersama.</h3>
+          <p>Saya saat ini terbuka untuk kesempatan magang, proyek freelance, dan kolaborasi. Jangan ragu untuk
+            menghubungi melalui saluran di bawah ini atau gunakan formulir kontak.</p>
+          <div class="contact-methods">
+            <a href="mailto:your.email@example.com" class="contact-method" id="contact-email">
+              <div class="contact-method-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <span>your.email@example.com</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="contact-method"
+              id="contact-linkedin">
+              <div class="contact-method-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </div>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>Terhubung dengan saya</span>
+              </div>
+            </a>
+            <a href="https://github.com/yourprofile" target="_blank" rel="noopener" class="contact-method"
+              id="contact-github">
+              <div class="contact-method-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+              </div>
+              <div>
+                <strong>GitHub</strong>
+                <span>Lihat repositori saya</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper reveal-right">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="form-name">Nama Lengkap</label>
+              <input type="text" id="form-name" name="name" placeholder="Nama Anda" required />
+            </div>
+            <div class="form-group">
+              <label for="form-email">Alamat Email</label>
+              <input type="email" id="form-email" name="email" placeholder="email@contoh.com" required />
+            </div>
+            <div class="form-group">
+              <label for="form-subject">Subjek</label>
+              <input type="text" id="form-subject" name="subject" placeholder="Pertanyaan Proyek" />
+            </div>
+            <div class="form-group">
+              <label for="form-message">Pesan</label>
+              <textarea id="form-message" name="message" rows="5"
+                placeholder="Ceritakan tentang proyek atau peluang Anda..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit" id="form-submit">
+              Kirim Pesan
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <span class="logo-bracket">&lt;</span>Dzikri<span class="logo-bracket"> /&gt;</span>
+          </a>
+          <p>Mahasiswa Sistem Informasi.<br />Calon Web Developer & UI/UX Designer.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Tautan Cepat</h4>
+          <a href="#about">Tentang</a>
+          <a href="#skills">Keahlian</a>
+          <a href="#experience">Pengalaman</a>
+          <a href="#projects">Proyek</a>
+          <a href="#contact">Kontak</a>
+        </div>
+        <div class="footer-social">
+          <h4>Ikuti Saya</h4>
+          <div class="footer-social-links">
+            <a href="https://github.com/yourprofile" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="mailto:your.email@example.com" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Dzikri. Dibuat dengan semangat dan kode.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BACK TO TOP ==================== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
